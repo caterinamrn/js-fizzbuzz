@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#list {
+  margin-top: 20px;
+}
+#list li{
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+.fizz {
+  font-weight: bold;
+  color: red;
+}
+.buzz {
+  font-weight: bold;
+  color: green;
+}
+.fizzbuzz {
+  font-weight: bold;
+
+}
