@@ -1,11 +1,9 @@
-
+// nota: avresti dovuto mettere la classe più stringente come prima classe per evitare di aggiungere una seconda condizone su tutte condizioni degli if
 for (var i = 1; i <= 100; i++) {
   if (!(i % 3) && (i % 5)) {
-    // document.getElementById('list').innerHTML = "<li> Fizz </li>";
     console.log("Fizz");
   }
   else if (!(i % 5) && (i % 3)) {
-    // document.getElementById('list').innerHTML = "Fuzz";
     console.log("Buzz");
   }
   else if (!(i % 3) && !(i % 5)) {
